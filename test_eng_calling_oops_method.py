@@ -1,0 +1,23 @@
+from OOPS_concepts.class_objects_concepts import arithmetic_op
+#according OOP we have to create object to class to access methods
+obj=arithmetic_op()
+res=obj.mul()
+print("mul result:",res)
+obj=arithmetic_op()
+res=obj.div()
+print("divsion result:",res)
+obj=arithmetic_op()
+res=obj.mod()
+print("mod result:",res)
+obj=arithmetic_op()
+res=obj.even_odd()
+obj=arithmetic_op()
+res=obj.positive_negative()
+obj=arithmetic_op()
+res=obj.fact()
+print("factorial result:",res)
+obj=arithmetic_op()
+res=obj.prime_no()
+obj=arithmetic_op()
+res=obj.mobile_no_validation()
+
